@@ -1,0 +1,16 @@
+# Secret Environment variables
+.env
+
+# Linux/Windows Virtual Environments
+venv/
+.venv/
+env/
+
+# Docker Local Database storage (Prevents giant DB files from uploading)
+postgres_data/
+
+# Python Cache Files
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
