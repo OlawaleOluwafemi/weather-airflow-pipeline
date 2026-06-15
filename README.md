@@ -11,6 +11,13 @@ This project implements an end-to-end weather data pipeline that:
 - Orchestrates all workflows using Apache Airflow
 - Provides automated scheduling and monitoring
 
+## Tech Stack
+- Airflow (ETL Orchestration)
+- PostgreSQL (Data Warehouse)
+- Docker Compose (Containerized Infra)
+- Metabase (Visualization)
+- pgAdmin (DB GUI)
+
 ## Features
 
 - **Automated Data Collection**: Scheduled DAGs for continuous weather data ingestion
