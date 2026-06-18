@@ -54,3 +54,7 @@ Step 3: Connect VS Code to the Correct Distro
 - Verify the database directly
 - docker exec -it postgres-1 psql -U olawale -d source_data -c "SELECT * FROM weather LIMIT 5;"
 
+# ClickHouse
+- ClickHouse network connection string:
+- clickhouse://analytics:clickhouse123@clickhouse:8123/gold_analytics
+
