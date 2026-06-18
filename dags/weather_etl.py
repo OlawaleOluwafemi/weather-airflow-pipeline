@@ -38,7 +38,7 @@ def fetch_weather(lat, lon, city_name):
 
 def store_weather():
     conn = psycopg2.connect(
-        host="postgres",  
+        host="postgres-2",  
         database=os.getenv("POSTGRES_DB"),
         user=os.getenv("POSTGRES_USER"),
         password=os.getenv("POSTGRES_PASSWORD")
