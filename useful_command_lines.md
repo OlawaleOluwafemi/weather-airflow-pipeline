@@ -43,14 +43,14 @@ Step 3: Connect VS Code to the Correct Distro
 - Select Ubuntu (or your specific Linux distro) from the list—do not choose docker-desktop.
 
 # Install Airbyte
-- # Move into the airbyte folder allocation
+- Move into the airbyte folder allocation
 - cd airbyte
-- # Pull down the official deployment launcher scripts
+- Pull down the official deployment launcher scripts
 - curl -L https://maps.airbyte.com/launch-airbyte.sh | bash -s -- --with-logging
-- # Once the installer finishes running, you can boot your local instance right away with this command:
+- Once the installer finishes running, you can boot your local instance right away with this command:
 - abctl local install --low-resource-mode
 
 # PostgresDB
-- # Verify the database directly
+- Verify the database directly
 - docker exec -it postgres-1 psql -U olawale -d source_data -c "SELECT * FROM weather LIMIT 5;"
 
