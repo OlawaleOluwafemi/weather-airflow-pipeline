@@ -3,8 +3,8 @@ git status
 git add .
 git commit -m "message"
 git push -u origin main
-git config --global user.email "olawaleoluwafemi90@gmail.com"
-git config --global user.name "OlawaleOluwafemi"
+git config --global user.email "example@gmail.com"
+git config --global user.name "example"
 git remote add origin https://github.com/your-username/weather-airflow-pipeline.git ----> this is used to link your github repo
 #Pull the remote changes from GitHub and rebase your local commits on top of them: git pull origin main --rebase
 
