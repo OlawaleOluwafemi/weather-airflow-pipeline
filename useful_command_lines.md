@@ -10,7 +10,7 @@
 - git config --global user.name "example"
 - git pull origin main --rebase   ---->  Pull the remote changes from GitHub and rebase your local commits on top of them
 - git pull origin main --allow-unrelated-histories
-- git rm filename.txt  ----> to remove a file from github
+- git rm filename.txt  ----> to remove a file or text from github
 
 # Python
 # setting up a venv environment 
