@@ -11,6 +11,7 @@
 - git pull origin main --rebase   ---->  Pull the remote changes from GitHub and rebase your local commits on top of them
 - git pull origin main --allow-unrelated-histories
 - git rm filename.txt  ----> to remove a file or text from github
+- git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"     ----> Run this command when you get error like Error: connect ECONNREFUSED /run/user/1000/vscode-git-605d0f6069.sock
 
 # Python
 # setting up a venv environment 
