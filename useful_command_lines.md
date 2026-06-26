@@ -2,7 +2,7 @@
 - git init     ---->  Initialize the local repository
 - git add .    ------>   Stage all your pipeline code
 - git status   ------>  Check the status to ensure no massive data/volume folders are being tracked
-- git commit -m "message"  ---->  Create your baseline architecture commit
+- C  ---->  Create your baseline architecture commit
 - git branch -M main ----> Rename the local branch to 'main'
 - git remote add origin https://github.com/your-username/your-project-directory.git ----> this is used to link your github repo
 - git push -u origin main ---->  Push your code live!
@@ -118,7 +118,7 @@ Step 3: Connect VS Code to the Correct Distro
 - docker compose up -d superset
 
 - # 2. Run the initialization commands directly on the running container
-- docker exec -it superset-viz superset fab create-admin --username admin --firstname Superset --lastname Admin --email admin@gold.com --password admin123
+- docker exec -it superset-viz superset fab create-admin --username admin --firstname Superset --lastname Admin --email admin@admin.com --password admin123
 
 - docker exec -it superset-viz superset db upgrade
 
